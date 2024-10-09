@@ -15,6 +15,7 @@ export default defineConfig({
     charset: 'utf8',
   },
   build: {
-    outDir: 'docs',  // 设置输出目录为 'docs'
+    outDir: '.', // 将构建输出设置为根目录
+    emptyOutDir: false, // 防止删除重要的git文件
   },
 })
