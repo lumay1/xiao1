@@ -5,12 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/xiao1/',
   build: {
-    outDir: 'dist',
-    emptyOutDir: true,
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      },
-    },
+    outDir: '.',
+    emptyOutDir: false,
   },
 })
