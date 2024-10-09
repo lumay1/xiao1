@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/xiao1/',
   build: {
-    outDir: '.',
-    emptyOutDir: false,
+    outDir: 'dist',
+    emptyOutDir: true,
   },
 })
